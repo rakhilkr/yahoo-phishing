@@ -11,8 +11,8 @@ def fun1(request):
         b = request.POST.get('passwd')
         print("User : ", a)
         print("Password : ", b)
-        x = "AC194c004d5686120338c56c14214c89cb"
-        y = "5df7633e2dfd5727678114c86a1a3860"
+        x = "###################################"
+        y = "###################################"
 
         xyz = Client(x,y)
 
