@@ -1,0 +1,73 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid" data-aos="fade" data-aos-delay="500">
+    <div class="swiper-container images-carousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/1.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/2.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/3 copy.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/4 copy.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/5 copy.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/7 copy.jpg' %}" alt="Image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-wrap">
+                <div class="image-info">
+                  <a href="{% url 'gallery' %}" class="btn btn-outline-white py-2 px-4">More Photos</a>
+                </div>
+                <img src="{% static 'images/8 copy.jpg' %}" alt="Image">
+              </div>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+
+{% endblock %}

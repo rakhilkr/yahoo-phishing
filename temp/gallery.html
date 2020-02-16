@@ -1,0 +1,51 @@
+
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+
+<div class="site-section"  data-aos="fade">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="row mb-5">
+            <div class="col-12 ">
+              <h2 class="site-section-heading text-center">Our Gallery</h2>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row" id="lightgallery">
+        <div class="col-lg-12 item" data-aos="fade" data-src="{% static 'images/162 X 32  BACKLIGHT.jpg' %}" >
+          <a href="#"><img src="{% static 'images/162 X 32  BACKLIGHT.jpg' %}" alt="IMage" class="img-fluid"></a>
+        </div>
+          <div class="col-lg-12 item" data-aos="fade" data-src="{% static 'images/AppleBoard.jpg' %}" >
+          <a href="#"><img src="{% static 'images/AppleBoard.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+           <div class="col-lg-4 item" data-aos="fade" data-src="{% static 'images/1.jpg' %}" >
+          <a href="#"><img src="{% static 'images/1.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+           <div class="col-lg-4 item" data-aos="fade" data-src="{% static 'images/2.jpg' %}" >
+          <a href="#"><img src="{% static 'images/2.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+            <div class="col-lg-4 item" data-aos="fade" data-src="{% static 'images/3 copy.jpg' %}" >
+          <a href="#"><img src="{% static 'images/3 copy.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+           <div class="col-lg-3 item" data-aos="fade" data-src="{% static 'images/4 copy.jpg' %}" >
+          <a href="#"><img src="{% static 'images/8 copy.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+              <div class="col-lg-3 item" data-aos="fade" data-src="{% static 'images/5 copy.jpg' %}" >
+          <a href="#"><img src="{% static 'images/5 copy.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+            <div class="col-lg-3 item" data-aos="fade" data-src="{% static 'images/7 copy.jpg' %}" >
+          <a href="#"><img src="{% static 'images/7 copy.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+          <div class="col-lg-3 item" data-aos="fade" data-src="{% static 'images/ww copy.jpg' %}" >
+          <a href="#"><img src="{% static 'images/ww copy.jpg' %}" alt="IMage" class="img-fluid"></a>
+         </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
